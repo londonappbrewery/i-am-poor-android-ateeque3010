@@ -7,6 +7,23 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.londonappbrewery.iampoor.MainActivity">
+    tools:context="com.londonappbrewery.iampoor.MainActivity"
+    android:background="@color/White">
+
+    <TextView
+        android:id="@+id/idPoor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textColor="@color/Black"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/idImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/coal"
+        android:contentDescription="@string/str" />
 
 </RelativeLayout>
